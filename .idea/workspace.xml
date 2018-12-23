@@ -14,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/definition/core-java-conceptual-questions">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="135" column="43" lean-forward="true" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
+            <state relative-caret-position="325">
+              <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/definition/data-structure-questions">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -44,14 +53,15 @@
         <option value="$PROJECT_DIR$/src/json/parser/JsonReaderHelper.java" />
         <option value="$PROJECT_DIR$/src/json/parser/CnnAPI.java" />
         <option value="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" />
+        <option value="$PROJECT_DIR$/src/definition/data-structure-questions" />
         <option value="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
+    <option name="x" value="340" />
     <option name="y" value="23" />
-    <option name="width" value="1337" />
+    <option name="width" value="1081" />
     <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -77,18 +87,6 @@
               <item name="MidtermNovember2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="MidtermNovember2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermNovember2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermNovember2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermNovember2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermNovember2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="definition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -99,7 +97,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545585504157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545591361450" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -243,10 +241,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="23" width="1337" height="816" extended-state="0" />
+    <frame x="340" y="23" width="1081" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24864864" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30991337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,7 +258,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32734805" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -463,9 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/definition/data-structure-questions">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/math/problems/FindMissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -520,8 +515,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/definition/core-java-conceptual-questions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="135" column="43" lean-forward="true" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
+        <state relative-caret-position="325">
+          <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/definition/data-structure-questions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -223,23 +223,39 @@ what is multithreading in java?
 A. Multithreading in Java is a very important topic. I have written a lot about Threads in Java. Java Thread is a lightweight process that executes some task.
 
 What is the use of synchronization in Java?
+
 A. Synchronization makes sure that only one thread will be executing at a time.
 
 What is Framework?
+
 A. framework is a concrete or conceptual platform where common code with generic functionality can be selectively specialized or overridden by developers or users
 
 What are the testing Framework available in java?
-A. !!!!!!!
+
+A. Arquillian. Arquillian is a highly innovative and extendible testing platform for JVM that allows developers to easily create automated integration, functional and acceptance tests for Java. ...
+   JTest
+   The Grinder
+   TestNG
+   JUnit
+   JWalk
+   Mockito
+   Powermock
+
 
 Difference between jUnit and testNG?
+
 A. Both testng and Junit are testing framework used for unit testing. TestNG is similar to JUnit. Few more functionalities are added to it that makes TestNG more powerful than JUnit.
 
 What are the dependencies for this project?
-A.
+
+A. Dependencies and constraints have a cause and effect relationship. In its simplest form a constraint is a restriction within the boundaries of which the task has to be completed or executed.
+
 what is dependency injection in java?
+
 A. dependency injection is a technique whereby one object supplies the dependencies of another object. A dependency is an object that can be used (a service).
 
 What is static binding and dynamic binding?
+
 A. Static binding in Java occurs during compile time while dynamic binding occurs during runtime. private , final and static methods and variables use static binding and are bonded by compiler while virtual methods are bonded during runtime based upon runtime object.
 
 

@@ -17,7 +17,7 @@ public class UnitTestSorting {
         //verify if the unsorted array is sorted by the selection sort algorithm.
         try {
             Assert.assertEquals(sortedArray, unSortedArray, "Array is not Sorted");
-        }catch(Exception ex){
+        } catch(Exception ex){
             ex.getMessage();
         }
 

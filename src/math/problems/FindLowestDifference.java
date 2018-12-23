@@ -12,6 +12,17 @@ public class FindLowestDifference {
 
 
 
+        int min = array1[0];
+        for(int i=0; i<array1.length;i++) {
+            for(int j= 0; j<array2.length; j++) {
+                int m = Math.abs(array1[i]-array2[j]);
+                if(m<min) min = m;
+            }
+        }
+        System.out.println(min);
+
+
+
 
     }
 

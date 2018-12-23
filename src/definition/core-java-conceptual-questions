@@ -5,40 +5,136 @@ A. Java is a programing language
 
 
 What jdk contains or composed of and define each components?
-A.
+A.The real difference is the the JDK contains the Javacompiler, that is the          JDK allows you to compile and run Java
+
 What is IDE?
-A.
+A. Integrated Development Environment
+
 What are the IDEs available in the market to support java?
+A.
 Explain the entire java life cycle.
+A. Editor, Source Code, Java Compiler, Byte code, JVM, Operating system.
+
 what is class?
+A. the basic building block of an object-oriented language
+
+
 What is object?
+A.A Java object is a combination of data an procedures working on the available data. An object has a state and behavior.
+
+
+
 What is the entry point of an application?
+A.The main method is the entry point of a Java application.
+  	when the Java Virtual Machine is told to run an application by specifying its class (by using the java application launcher), it will look for the main method with the signature of public static void main(String[])
+
 Why main is static?
+A.because main() is called by the JVM before any objects are made. Since it is static it can be directly invoked via the class.
+
 Which class is the superclass of all classes?
+A.Object is a super class of any class
+
 What is difference between path and classpath variables?
+A.Path is an environment variable which is used by the operating system to find the executables.
+    	Classpath is an environment variable which is used by the Java compiler to find the path, of classes.
+
 What is the difference between an Interface and Abstract class?
+A. Path is an environment variable which is used by the operating system to find the executables.
+   	Classpath is an environment variable which is used by the Java compiler to find the path, of classes.
+
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.No,
 what is Access Specifier?
+A. The  access specifiers private and protected cannot be assigned to a class.
+
 What is OOP ? Define each feature of java OOP.
+A. Object Oriented Programming
+   Abstraction, Encapsulation, Inheritance, Polymorphism
+
 What is Java Package and which package is imported by default?
+A.  Package in Java is a mechanism to encapsulate a group of classes, sub packages and interfaces.
+
+   java.lang package is imported by default
+
+
 What is API? Name list of API that you have used so far.
+A. An application programming interface (API) is a set of routines, protocols, and tools for building software applications.
+
+   API used: scanner, random, array, exception handling, buffer reader and file reader.
+
+
+
 Does java support multiple inheritance, explain why or why not?
+A. No java doesn't support multiple inheritancedirectly because it leads to overriding of methods when both extended class have a same method name.
+
 What is method overloading and when it happens?
+A.  Overloading occurs when two or more methods in one class have the same method name but different parameters.
+
+
 Explain exceptions in java and how to handle it.
+A. An exception object is an instance of an exception class.
+   	It gets created and handed to the Java runtime when an exceptional event occurred that disrupted the normal flow of the application. This is called “to throw an exception” because in Java you use the keyword “throw” to hand the exception to the runtime.
+
 What is static keyword in java? How it has been used in variables and methods ?
+A. The static keyword belongs to the class than an instance of the class.
+   	can be used to attach a Variable or Method to a Class.
+
 What is final and how it has been used variables and methods?
+A. it can only be assigned once. Once a final variable has been assigned, it always contains the same value.
+   	final is a non-access modifier applicable only to a variable, a method or a class.
+
+   	- final variable is used to create constant variables
+   	- final method is used to prevent method overriding.
+
+
 What is final, finally and finalize?
+A.  A final class cannot be instantiated, a final method cannot be overridden and a final variable cannot be reassigned.
+   	The finally keyword is used to create a block ofcode that follows a try block.
+   	The finalize() method is used just before object is destroyed and can be called just prior to object creation.
+
+
+
 What is a constructor ?
+A.  it is a block of code similar to a method that's called when an instance of an object is created.
+
 Can we have multiple constructors in a class?
+A.  Yes, a class can have multiple constructors, as long as their signature are not the same.
+
+
 If we don't have a constructor declared, what is called during the object creation?
+A. Deserialization involves creating objects without invoking a constructor.
+
+
 What is "this" keyword in java ?
+A.  it is a reference variable in Java that refers to the current object.
+
 What is "super" keyword in java? How many possible way can you use?
+A. It is used inside a sub-class method definition to call a method defined in the super class.
+
+   	Private methods of the super-class cannot be called. Only public and protected methods can be called by the super keyword.
+
 What is JVM stand for ?
+A. Java virtual machine
+
+
 Is JVM platform independent?
+A. The JVM must be platform dependent to allow your Java to run on the specific platform.
+
+
 What version of java are you using?
+A. Java version(s): 8.0
+
+
 What is JAR stand for ?
+A. Java ARchive
+
 What is the difference between JDK and JVM?
+A. the JVM actually runs Java byte-code, but the JDK is what we need to compile Java source code
+
+
 What is the difference between JVM and JRE?
+A. JRE is an acronym for Java Runtime Environment.It is used to provide runtime environment.It is the implementation of JVM.It physically exists.It contains set of libraries + other files that JVM uses at runtime. JDK is an acronym for Java Development Kit.It physically exists.It contains JRE + development tools.
 What is compile time and run time?
 What is heap?
 How java manage it's memory?
@@ -66,6 +162,7 @@ Difference between jUnit and testNG?
 What are the dependencies for this project?
 what is dependency injection in java?
 What is static binding and dynamic binding?
+
 
 
 

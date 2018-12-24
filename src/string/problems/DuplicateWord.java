@@ -1,7 +1,8 @@
 package string.problems;
-
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by mrahman on 04/22/17.
@@ -13,37 +14,45 @@ public class DuplicateWord {
          * Write a java program to find the duplicate words and their number of occurrences in the string.
          * Also Find the average length of the words.
          */
-
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
-        String[] words = st.split(" ");
 
 
-
-        Map<String, Integer> wordMap = new HashMap<String, Integer>();
-        Integer wordCount = 0;
-        for (int i = 0; i < words.length; i++) {
-            String word = words[i].toUpperCase();    // for case insensitive comparison
-
-            if (wordMap.get(word) == null) {
-                wordMap.put(word, wordCount);
-            } else {
-                System.out.println("Duplicated/Repeated word: " + word);
-
-                wordMap.replace(word, wordMap.get(word) + 1);
-                System.out.println("Number of occurrence: " + wordMap.get(word));
-            }
-        }
-        int sum = 0, count = 0;
-        for (String str : wordMap.keySet()) {
-
-            if (wordMap.get(str) > 0) {
-                sum += str.length();
-                count++;
-            }
-
-        }
-        System.out.println("Average: " + sum / count);
-
-
+        Set<String> duplicates = duplicateWords(st);
+        System.out.println("input : " + st);
+        System.out.println("output : " + duplicates);
     }
+
+    public static Set<String> duplicateWords(String input) {
+
+        if (input == null || input.isEmpty()) {
+            return Collections.emptySet();
+        }
+        Set<String> duplicates = new HashSet<>();
+
+        String[] words = input.split(" ");
+        double length = (double) input.length() / words.length;
+        System.out.println("Average length of words: " + length);
+
+        Set<String> set = new HashSet<>();
+
+        ArrayList<String> arraylist = new ArrayList<String>();
+
+        for (String word : words) {
+            arraylist.add(word);
+            if (!set.add(word)) {
+
+                duplicates.add(word);
+
+            }
+        }
+
+        for (String count : arraylist) {
+            if (Collections.frequency(arraylist, count) > 1) {
+                System.out.println("Number of occurrence of: " + count + " is: " + Collections.frequency(arraylist, count));
+            }
+
+        }
+        return duplicates;
+    }
+
 }

@@ -34,7 +34,10 @@ public class Factorial {
             x = n*fact(n-1);
             return x; }
     }
+
+
 }
+
 
 
 

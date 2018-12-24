@@ -22,8 +22,6 @@ public class FindLowestDifference {
         System.out.println(min);
 
 
-
-
     }
 
 }

@@ -136,7 +136,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545679123911" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545679539632" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -159,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuplicateWord">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -173,20 +173,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.CollectionView" />
-      <module name="CodingExamNovember2018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,6 +222,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.Palindrome" />
+      <module name="CodingExamNovember2018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -266,19 +266,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CollectionView" />
       <item itemvalue="Application.DataReader" />
       <item itemvalue="Application.Anagram" />
       <item itemvalue="Application.DetermineLargestWord" />
       <item itemvalue="Application.DuplicateWord" />
+      <item itemvalue="Application.Palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.DuplicateWord" />
         <item itemvalue="Application.DetermineLargestWord" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.DataReader" />
-        <item itemvalue="Application.CollectionView" />
       </list>
     </recent_temporary>
   </component>

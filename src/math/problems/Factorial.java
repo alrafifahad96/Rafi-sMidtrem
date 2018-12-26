@@ -5,39 +5,27 @@ package math.problems;
  */
 public class Factorial {
 
+    static int fact = 1;
     public static void main(String[] args) {
         /*
          * Factorial of 5! = 5 x 4 X 3 X 2 X 1 = 120.
          * Write a java program to find Factorial of a given number using Recursion as well as Iteration.
          *
          */
-        int number = 7;
-        int fact = 1;
-        int i;
-        for (i=1;i<=number;i++) {
-            fact = fact * i;
-        }
+        int num= 5;
 
-        System.out.println("The Factorial of Number 7 is :" + fact);
-
-        // Recursion Method to find the factorial of 5
-
-        int factorial = fact(5);
-        System.out.println("The factorial of the 7 is:" + factorial);
+        Factorial f = new Factorial();
+        f.factorial(num);
+        System.out.println(fact);
     }
-    static int fact(int n)
+    public static int factorial(int num)
+
+    { if (num>=1)
     {
-        int x;
-        if (n==1){
-            return 1; }
-        else {
-            x = n*fact(n-1);
-            return x; }
+        fact = fact*num;
+        factorial(num-1);
     }
-
-
+        return fact;
+    }
 }
-
-
-
 

@@ -11,25 +11,23 @@ public class Pattern {
 		 *
 		 *
 		 */
-		int count = 1, j = 0;
+		int count = 1, a = 0;
 		int num = 100;
-		//ConnectDB connectDB = new ConnectDB();
-		List<String> storePattern = new ArrayList<String>();
-		int[] array1 = new int[40];
+		List<String> storePattern = new ArrayList<>();
+		int[] array = new int[40];
 
 		while (num > 0) {
 			for (int i = 0; i < 10; i++) {
 				System.out.print(" " + num);
-				array1[j] = num;
+				array[a] = num;
 				num -= count;
-				j++;
+				a++;
 
 			}
 			count++;
 		}
 		System.out.println(" ");
-		
-
-
 	}
+
+
 }
